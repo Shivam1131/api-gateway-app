@@ -1,6 +1,6 @@
 # api-gateway-app
 
-### 1. eureka-server
+### 1. Eureka-server
 
 #### Configure eureka server
    ###### create new spring boot project add below dependencies
@@ -24,12 +24,12 @@
         	}
         }
 
-#### Run eureka server
+#### Run Eureka server
   ``` mvn spring-boot:run```
 
-### 2. eureka-client-student
+### 2. Eureka-java-client
 	
-##### Configure eureka client
+##### Configure Eureka client
    ###### create new spring boot project add below dependencies
         Eureka discovery client
         Spring web starter
@@ -91,7 +91,7 @@
 ##### Run API Gateway
   ``` mvn spring-boot:run```
 
-####Access Eureka clients using API Gateway   
+#### Access Eureka clients using API Gateway   
 ``` 
 Eureka Server URL: http://localhost:8090/
 Eureka Node client URL: http://localhost:8190/nodejs/test/node
