@@ -92,10 +92,8 @@
   ``` mvn spring-boot:run```
 
 #### Access Eureka clients using API Gateway   
-``` 
-Eureka Server URL: http://localhost:8090/
-Eureka Node client URL: http://localhost:8190/nodejs/test/node
-Eureka Java client URL : http://localhost:8190/studentdemo/student/getStudentDetails
-```
+    Eureka Server URL: http://localhost:8090/
+    Eureka Node client URL: http://localhost:8190/nodejs/test/node
+    Eureka Java client URL : http://localhost:8190/studentdemo/student/getStudentDetails
 
 
